@@ -1,0 +1,11 @@
+{
+    "name": "root/programador_junior",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "require": {
+        "league/plates": "^3.5"
+    }
+}
