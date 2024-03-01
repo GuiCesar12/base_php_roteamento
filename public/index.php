@@ -2,6 +2,9 @@
 require '../vendor/autoload.php';
 require '../routes/routes.php';
 require '../app/helpers/helpers.php';
+// require 'bootstrap.php';
+
+
 try{
     $uri = parse_url($_SERVER["REQUEST_URI"])['path'];
     $request = $SERVER["REQUEST_METHOD"];
